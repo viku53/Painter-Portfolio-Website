@@ -1,10 +1,12 @@
 <?php 
    include 'header.html'; 
+
    $host = "localhost";
    $username = "root";
    $password = "";
    $db="website";
    
+
    // Create connection
    $conn = new mysqli($host, $username, $password,$db);
    
